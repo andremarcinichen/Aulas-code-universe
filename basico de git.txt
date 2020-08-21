@@ -1,0 +1,6 @@
+git config --global user.name "andre"
+git config --global user.email "andremarcinichen@hotmail.com"
+cd user/andre/downloads/aulas-code-universe
+git add .
+git commit -m "aulas"
+git push
