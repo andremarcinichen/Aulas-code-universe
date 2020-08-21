@@ -10,6 +10,7 @@ div{
 }
 /*faz mudança linear*/
 #linear{
+<<<<<<< HEAD
 	background: -webkit-linear-gradient(left,red,yellow,green);/*safari*/
 	background: -moz-linear-gradient(right,red,yellow,green);/*mozzila firefox*/
 	background: -ms-linear-gradient(right,red,yellow,green);/*microsoft*/
@@ -35,6 +36,13 @@ div{
 	background: linear-gradient(-60deg,red,yellow,green);/*padrão*/
 	/*(sentido, cor,cor,cor)*/
 	/*fazer varias vezes para diferentes navegadores*/
+=======
+	background: -webkit-linear-gradient(red,yellow,green);/*safari*/
+	background: -moz-linear-gradient(red,yellow,green);/*mozzila firefox*/
+	background: -ms-linear-gradient(red,yellow,green);/*microsoft*/
+	background: -o-linear-gradient(red,yellow,green);/*opera*/
+	background: linear-gradient(red,yellow,green);/*padrão*/
+>>>>>>> 2aa215952dabc7a2245be44f680a02bbf6e50174
 }
 /*faz mudança circular*/
 #radial{
