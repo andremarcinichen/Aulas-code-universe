@@ -1,0 +1,47 @@
+body{	
+margin: 0;
+
+}
+div{
+	height: 300px;
+	width: 300px;
+	background-color: red;
+	/*esse background é para caso navegador nao funcione*/
+}
+/*faz mudança linear*/
+#linear{
+	background: -webkit-linear-gradient(left,red,yellow,green);/*safari*/
+	background: -moz-linear-gradient(right,red,yellow,green);/*mozzila firefox*/
+	background: -ms-linear-gradient(right,red,yellow,green);/*microsoft*/
+	background: -o-linear-gradient(right,red,yellow,green);/*opera*/
+	background: linear-gradient(to right,red,yellow,green);/*padrão*/
+	/*(sentido, cor,cor,cor)*/
+	/*fazer varias vezes para diferentes navegadores*/
+}
+#linear{
+	background: -webkit-linear-gradient(left bottom,red,yellow,green);/*safari*/
+	background: -moz-linear-gradient(right top,red,yellow,green);/*mozzila firefox*/
+	background: -ms-linear-gradient(right top,red,yellow,green);/*microsoft*/
+	background: -o-linear-gradient(right top,red,yellow,green);/*opera*/
+	background: linear-gradient(to right top,red,yellow,green);/*padrão*/
+	/*(sentido, cor,cor,cor)*/
+	/*fazer varias vezes para diferentes navegadores*/
+}
+#linear{
+	background: -webkit-linear-gradient(-60deg,red,yellow,green);/*safari*/
+	background: -moz-linear-gradient(-60deg,red,yellow,green);/*mozzila firefox*/
+	background: -ms-linear-gradient(-60deg,red,yellow,green);/*microsoft*/
+	background: -o-linear-gradient(-60deg,red,yellow,green);/*opera*/
+	background: linear-gradient(-60deg,red,yellow,green);/*padrão*/
+	/*(sentido, cor,cor,cor)*/
+	/*fazer varias vezes para diferentes navegadores*/
+}
+/*faz mudança circular*/
+#radial{
+	margin-top: 20px;
+	background: -webkit-radial-gradient(red,yellow,green);/*safari*/
+	background: -moz-radial-gradient(red,yellow,green);/*mozzila firefox*/
+	background: -ms-radial-gradient(red,yellow,green);/*microsoft*/
+	background: -o-radial-gradient(red,yellow,green);/*opera*/
+	background: radial-gradient(red,yellow,green);/*padrão*/
+}

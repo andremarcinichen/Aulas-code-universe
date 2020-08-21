@@ -1,0 +1,32 @@
+body{
+	background-color: #add8e6;
+}
+h1{
+	color: red;
+	font-size: 88%;
+	/*porcentagem é adaptativo o tamanho*/
+	font-family: Verdana,courier;
+	/*fonte reserva de font para evitar bug*/
+}
+
+p{
+	/*opacidade rgba*/
+	/*color: rgba(200,100,100,.8);*/
+	font-family: "Comic sans MS";
+	/*#333 é cor em hexa*/
+	border-left: 10px solid rgb(100,0,0);
+	border-right: 10px dashed yellow;
+	border-top:  10px double rgb(0,0,100);
+	border-bottom:  10px dotted purple;
+	padding: 60px 50px 10px 20px;
+	margin: 20px 35px 47.5px 100px;
+}
+/*id*/
+#azul{
+	color:blue;
+}
+
+/*class*/
+.vermelho{
+	color:red;
+}
