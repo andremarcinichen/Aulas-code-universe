@@ -1,0 +1,26 @@
+body{
+	margin:0;
+	height: 3000px;
+}
+
+div{	
+	width: 200px;
+	height: 200px;
+	border: 0px solid black;
+	/*float: right;*/
+	/*tem opção none*/
+}
+
+.box1{
+	position: absolute;
+	background:rgb(100,100,100);
+	z-index: 1;
+	/* comando z-index eixo z define prioridade de quem fica na frente*/
+}
+
+.box2{
+	/*position: absolute;*/
+	position: fixed;
+	background: yellow;
+	margin:100px;
+}

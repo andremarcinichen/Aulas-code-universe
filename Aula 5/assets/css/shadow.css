@@ -1,0 +1,26 @@
+body{
+	magin:0;
+}
+
+p{
+	text-shadow: 2px 2px 10px gray;
+	/*n aceita percentual localizaçãoa ceita + -*/
+	/*esquerda direita, cima baixo, esfumasado, cor */
+}
+
+div{	
+	width: 1000px;
+	/*largura da caixa*/
+	height: 100px;
+	/*altura da caixa*/
+	background-color: lightblue;
+	/*corde fundo da caixa*/
+	box-shadow: 10px 10px #333;
+	/*sombra da caixa e deslocamento da caixa*/
+	overflow-y: scroll;
+	/*scroll para girar caixa*/
+	overflow-x: hidden;
+	/*scroll parar esquerda em direita*/
+	border-radius: 300px 1000px 0 300px;
+	/*efeito de curva num canto*/
+}
