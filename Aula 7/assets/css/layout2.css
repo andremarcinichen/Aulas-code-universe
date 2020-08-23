@@ -1,0 +1,33 @@
+*{	
+	box-sizing: border-box;
+}
+body{
+	margin:0;
+}
+nav {
+	overflow: hidden;
+	background-color: red;
+}
+
+nav a{
+	float: left;
+	display: block;
+	color: blue;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+nav a:hover{
+	background-color: gray;
+	color: black;
+}
+
+main{
+	background-color: gray;
+	padding: 10px;
+	height: 200px;
+	}
+footer{
+	background-color: blue;
+	padding: 10px;
+}
