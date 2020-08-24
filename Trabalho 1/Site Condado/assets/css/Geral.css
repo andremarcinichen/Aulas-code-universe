@@ -1,8 +1,9 @@
 *{	
 font: Arial;
+/*box-sizing: border-box;*/
 }
 main{
-text-align: center
+text-align: center;
 }
 body{
 	margin: 0;
@@ -13,31 +14,31 @@ header{
 	z-index:2;
 	width:100%;
 	background:rgb(230,230,230);
-	min-height:11.7%;
+	height:11.7%;
 	opacity: 85%;
 }
 #hlogo1{
-	border-right: 2px solid black;
-	width:6%; 
-	height:11.8%;
+	border-right: 1px solid black;
+	width:5.6%; 
 	position: fixed;
+	z-index:10;
 }
 #hlogo2{
 	width:22%; 
-	height:10%;
 	padding-left: 37%;
 	padding-top: 0.5%;
 	position: fixed;
 }
+
 #hbotao1{
 	color:black!important;
 	width:13.2%; 
 	height:11.7%;
-	background: -webkit-radial-gradient(rgb(192,192,192),rgb(128,128,128),rgb(79,79,79),rgb(28,28,28));/*safari*/
-	background: -moz-radial-gradient(rgb(192,192,192),rgb(128,128,128),rgb(79,79,79),rgb(28,28,28));/*mozzila firefox*/
-	background: -ms-radial-gradient(rgb(192,192,192),rgb(128,128,128),rgb(79,79,79),rgb(28,28,28));/*microsoft*/
-	background: -o-radial-gradient(rgb(192,192,192),rgb(128,128,128),rgb(79,79,79),rgb(28,28,28));/*opera*/
-	background: radial-gradient(rgb(192,192,192),rgb(128,128,128),rgb(79,79,79),rgb(28,28,28));/*padrão*/
+	background: -webkit-radial-gradient(rgb(192,192,192),rgb(128,128,128),rgb(79,79,79),rgb(28,28,28));
+	background: -moz-radial-gradient(rgb(192,192,192),rgb(128,128,128),rgb(79,79,79),rgb(28,28,28));
+	background: -ms-radial-gradient(rgb(192,192,192),rgb(128,128,128),rgb(79,79,79),rgb(28,28,28));
+	background: -o-radial-gradient(rgb(192,192,192),rgb(128,128,128),rgb(79,79,79),rgb(28,28,28));
+	background: radial-gradient(rgb(192,192,192),rgb(128,128,128),rgb(79,79,79),rgb(28,28,28));
 	position: fixed;
 	left: 72.55%;
 	font-size:1.17vw;
@@ -45,9 +46,14 @@ header{
 	text-align: center;
 }
 
+header div #hbotao1:hover{
+    background: none;
+	color:rgb(28,28,28)!important;
+	background-color: gray;
+}
+
 #hbotao2{
 	color:black!important;
-	border: 0;
 	width:13.2%; 
 	height:11.7%;
 	background: -webkit-radial-gradient(rgb(192,192,192),rgb(128,128,128),rgb(79,79,79),rgb(28,28,28));/*safari*/
