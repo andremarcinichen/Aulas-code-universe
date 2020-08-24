@@ -31,10 +31,8 @@ header{
 }
 #hbotao1{
 	color:black!important;
-	padding-left: 3%;
-	padding-right: 3%;
-	padding-top: 2.18%;
-	padding-bottom: 2.18%;
+	width:13.2%; 
+	height:11.7%;
 	background: -webkit-radial-gradient(rgb(192,192,192),rgb(128,128,128),rgb(79,79,79),rgb(28,28,28));/*safari*/
 	background: -moz-radial-gradient(rgb(192,192,192),rgb(128,128,128),rgb(79,79,79),rgb(28,28,28));/*mozzila firefox*/
 	background: -ms-radial-gradient(rgb(192,192,192),rgb(128,128,128),rgb(79,79,79),rgb(28,28,28));/*microsoft*/
@@ -44,15 +42,14 @@ header{
 	left: 72.55%;
 	font-size:1.17vw;
 	text-decoration:none;
+	text-align: center;
 }
 
 #hbotao2{
 	color:black!important;
 	border: 0;
-	padding-left: 3%;
-	padding-right: 3%;
-	padding-top: 2.18%;
-	padding-bottom: 2.18%;
+	width:13.2%; 
+	height:11.7%;
 	background: -webkit-radial-gradient(rgb(192,192,192),rgb(128,128,128),rgb(79,79,79),rgb(28,28,28));/*safari*/
 	background: -moz-radial-gradient(rgb(192,192,192),rgb(128,128,128),rgb(79,79,79),rgb(28,28,28));/*mozzila firefox*/
 	background: -ms-radial-gradient(rgb(192,192,192),rgb(128,128,128),rgb(79,79,79),rgb(28,28,28));/*microsoft*/
@@ -62,6 +59,7 @@ header{
 	left: 85.75%;
 	font-size:1.17vw;
 	text-decoration:none;
+	text-align: center;
 }
 
 #hdiv1{	float:left;}
@@ -72,7 +70,7 @@ header{
 #espacamento5d{	padding-right: 5px;}
 
 #menulateral{
-	margin: 75.5px 0 0 0px;
+	margin: 5.65% 0% 0% 0%;
 	border-right:#000000 solid medium;
 	width: 10%; 
 	height:100%;
@@ -81,4 +79,5 @@ header{
 	overflow-x: hidden;
 	position: fixed;
 	padding-top: 100px;
+	font-size: 1.17vw;
 }
