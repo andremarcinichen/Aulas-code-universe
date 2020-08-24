@@ -17,6 +17,12 @@ header{
 	height:11.7%;
 	opacity: 85%;
 }
+@media(max-width: 600px){
+	header{
+		max-height:1%;
+	}
+}
+
 #hlogo1{
 	border-right: 1px solid black;
 	width:5.6%; 
@@ -87,3 +93,4 @@ header div #hbotao1:hover{
 	padding-top: 100px;
 	font-size: 1.17vw;
 }
+

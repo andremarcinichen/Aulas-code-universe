@@ -106,6 +106,14 @@ main section.servicos .column .imagem{
 
 }
 
+main section.servicos .column .imagem:hover{
+	-webkit-filter:grayscale(100%);
+	-moz-filter:grayscale(100%);
+	-ms-filter:grayscale(100%);
+	-o-filter:grayscale(100%);
+	filter:grayscale(100%);
+}
+
 main section.servicos .column #imagem1{
 	background-image: url(../img/718.jpg);
 	background-size: cover;
