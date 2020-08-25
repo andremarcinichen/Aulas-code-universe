@@ -40,9 +40,10 @@ header{
 	text-decoration:none;
 	text-align: center;
 	padding-top: 2.2%;
+	border-radius:55%;
 }
 #hbotao1{
-	left: 73.58%;
+	left: 71.58%;
 }
 #hbotao2{
 	left: 86.78%;
@@ -74,11 +75,15 @@ header div .hbotao:hover{
 	color:white;
 	height: 10%;
 	z-index: 2;
-	border-top: : 1px;
-	border-color: white;
+	border-top:1px;
+	border-radius:10px;
+	border:1px white solid;
 	padding-top: 15%;
 }
 
+.lbotao:hover{
+	color:orange!important;
+}
 
 main{
 	margin-left: 15%;
