@@ -1,14 +1,11 @@
 *{	
 font: Arial;
 }
-main{
-text-align: center;
-}
 body{
 	margin: 0;
 }
 header{
-	border-bottom:black solid;
+	border-bottom:black solid 1px;
 	position:fixed;
 	z-index:2;
 	width:100%;
@@ -16,78 +13,92 @@ header{
 	height:11.7%;
 	opacity: 85%;
 }
-@media(max-width: 600px){
-	header{
-		max-height:5%;
-	}
-}
-
 #hlogo1{
 	border-right: 1px solid black;
-	width:5.6%; 
+	width:5.7%; 
 	position: fixed;
 	z-index:10;
+	padding-left: 37%;
 }
 #hlogo2{
-	width:22%; 
-	padding-left: 37%;
+	width:23%; 
 	padding-top: 0.5%;
+	padding-left: 37%;
 	position: fixed;
 }
-
-#hbotao1{
+.hbotao{
 	color:black!important;
 	width:13.2%; 
-	height:11.7%;
+	height:7.2%;
 	background: -webkit-radial-gradient(rgb(192,192,192),rgb(128,128,128),rgb(79,79,79),rgb(28,28,28));
 	background: -moz-radial-gradient(rgb(192,192,192),rgb(128,128,128),rgb(79,79,79),rgb(28,28,28));
 	background: -ms-radial-gradient(rgb(192,192,192),rgb(128,128,128),rgb(79,79,79),rgb(28,28,28));
 	background: -o-radial-gradient(rgb(192,192,192),rgb(128,128,128),rgb(79,79,79),rgb(28,28,28));
 	background: radial-gradient(rgb(192,192,192),rgb(128,128,128),rgb(79,79,79),rgb(28,28,28));
 	position: fixed;
-	left: 72.55%;
 	font-size:1.17vw;
 	text-decoration:none;
 	text-align: center;
+	padding-top: 2.2%;
 }
-
-header div #hbotao1:hover{
+#hbotao1{
+	left: 73.58%;
+}
+#hbotao2{
+	left: 86.78%;
+}
+header div .hbotao:hover{
     background: none;
 	color:rgb(28,28,28)!important;
-	background-color: gray;
+	background-color: white;
 }
-
-#hbotao2{
-	color:black!important;
-	width:13.2%; 
-	height:11.7%;
-	background: -webkit-radial-gradient(rgb(192,192,192),rgb(128,128,128),rgb(79,79,79),rgb(28,28,28));/*safari*/
-	background: -moz-radial-gradient(rgb(192,192,192),rgb(128,128,128),rgb(79,79,79),rgb(28,28,28));/*mozzila firefox*/
-	background: -ms-radial-gradient(rgb(192,192,192),rgb(128,128,128),rgb(79,79,79),rgb(28,28,28));/*microsoft*/
-	background: -o-radial-gradient(rgb(192,192,192),rgb(128,128,128),rgb(79,79,79),rgb(28,28,28));/*opera*/
-	background: radial-gradient(rgb(192,192,192),rgb(128,128,128),rgb(79,79,79),rgb(28,28,28));/*padrão*/
-	position: fixed;
-	left: 85.75%;
-	font-size:1.17vw;
-	text-decoration:none;
-	text-align: center;
-}
-
 #hdiv1{	float:left;}
-#hdiv2{
-	padding-left: 992px;
-}
+#hdiv2{	padding-left: 992px;}
 #espacamento50d{padding-right: 50px;}
-#espacamento5d{	padding-right: 5px;}
+#espacamento5d{padding-right: 5px;}
 
 #menulateral{
-	margin: 5.68% 0% 0% 0%;
-	border-right:black solid medium;
-	width: 10%; 
-	height:40%;
-	z-index: 1;
-	background: rgb(230,230,230);
+	border-right:black solid 1px;
+	width: 15%; 
+	height:80%;
+	z-index: 3;
+	background: black;
 	position: fixed;
 	font-size: 1.17vw;
+	text-align: center;
+	padding-top: 5.5%;
+}
+
+.lbotao{
+	background-color: black;
+	color:white;
+	height: 10%;
+	z-index: 2;
+	border-top: : 1px;
+	border-color: white;
+	padding-top: 15%;
+}
+
+
+main{
+	margin-left: 15%;
+	padding-top: 5.70%;
+	z-index:1;
+}
+main div iframe.mvideo{
+	width:69.02%; 
+	height:523px;
+}
+
+@media only screen and (max-width: 600px){
+	header{
+		max-height:5%;
+	}
+	.hbotao{
+		max-height:5%;
+	}
+	#hlogo1{
+		width:7.6%; 
+	}
 }
 
