@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<!-- 8) Corrija o código abaixo: -->
+<head>
+<meta charset="utf-8">
+</head>
+<body>
+
+<input id="fruta" type="text" value="laranja">
+
+<button onclick="checarFruta()">Checar Fruta</button>
+
+<p id="resultado"></p>
+
+<script>
+checarFruta
+
+var texto;
+var frutas = document.getElementById("fruta").value;
+
+switch(frutas) {
+
+case "banana":
+texto = "Temos banana!";
+
+case "laranja":
+texto = "Temos laranja!.";
+
+case "maça":
+texto = "Temos maça!";
+
+default:
+texto = "Nós não temos esta fruta";
+
+}
+
+document.getElementById("resultado").innerHTML = texto;
+
+
+</script>
+
+</body>
+</html>
