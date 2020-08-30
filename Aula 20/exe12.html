@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html>
-
-<!-- 12) Crie as validações do formulário abaixo, e verifique se o usuário é maior de idade: -->
 <head>
   <meta charset="utf-8">
   <style type="text/css">
@@ -18,7 +16,7 @@
   </style>
 </head>
 <body>
-
+<!-- 12) Crie as validações do formulário abaixo, e verifique se o usuário é maior de idade: -->
   <form name="formularioCadastro" action="/action_page.php" onsubmit="return validateForm()" method="post">
 
     <label>Name:<label>
@@ -39,9 +37,13 @@
 
   <script>
      function validateForm() {
-
          var x = document.forms["formularioCadastro"]["nome"].value;
-
+         var y = document.forms["formularioCadastro"]["idade"].value;
+         var z =true;
+         if (y<18 || isNaN(y)) {
+          alert("idade invalida refaça o cadastro");
+          document.forms["formularioCadastro"]["idade"].value="";
+         }
      }
   </script>
 

@@ -6,12 +6,13 @@
 </head>
 <body>
 
-<p>O resultado será mostrado aqui.</p>
+<p id="demo">O resultado será mostrado aqui.</p>
 
 <script>
-function nomeFuncao(a, b) {
-    return
+function mult(a, b) {
+    return a*b;
 }
+document.getElementById("demo").innerHTML =mult(5,5);
 </script>
 
 </body>

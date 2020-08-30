@@ -13,7 +13,7 @@
 <p id="resultado"></p>
 
 <script>
-checarFruta
+function checarFruta(){
 
 var texto;
 var frutas = document.getElementById("fruta").value;
@@ -22,19 +22,23 @@ switch(frutas) {
 
 case "banana":
 texto = "Temos banana!";
+break;
 
 case "laranja":
-texto = "Temos laranja!.";
+texto = "Temos laranja!";
+break;
 
 case "maça":
 texto = "Temos maça!";
+break;
 
 default:
-texto = "Nós não temos esta fruta";
-
+texto = "Nós não temos " + frutas;
+break;
 }
 
 document.getElementById("resultado").innerHTML = texto;
+}
 
 
 </script>

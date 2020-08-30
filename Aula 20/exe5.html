@@ -6,12 +6,14 @@
 </head>
 <body>
 
-<p>O resultado será mostrado aqui.</p>
+<p id="demo" >O resultado será mostrado aqui.</p>
 
 <script>
 function soma(a, b) {
     return a + b;
 }
+document.getElementById("demo").innerHTML =soma(2,5);
+
 </script>
 
 </body>
