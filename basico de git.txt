@@ -4,6 +4,6 @@ cd ..
 cd c/users/andre/downloads/aulas-code-universe
 git pull
 git add .
-git commit -m "trabalho 1"
+git commit -m "exercicios e aulas de casa"
 git push
 git status
