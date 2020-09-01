@@ -8,7 +8,7 @@
 *
 **/
 
-define('LOCAL_URL', 'andre_ramos/aulas-code-universe/Projetos/projeto-1');
+define('LOCAL_URL', '/andre_ramos/Aulas-code-universe/Projetos/projeto-1');
 
 	
 // if($env == "dev"){
