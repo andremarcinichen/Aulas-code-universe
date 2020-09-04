@@ -21,6 +21,18 @@ header .links a:hover{
 	color: red!important;
 
 }
+
+footer{
+	background-color: red;
+}
+
+footer .fab{
+	color:blue;
+	font-size: 45px;
+	margin-bottom: 10px;
+
+}
+
 @media (max-width: 767px){
 
 	header .hamburguer{
@@ -42,5 +54,14 @@ header .links a:hover{
 		text-align: right;
 		width: 100%;
 		float: none!important;
+	}
+
+	footer .link-responsive{
+		text-align: center!important;
+		margin-bottom: 30px;
+	}
+
+	footer .link-responsive a{
+		margin-left: 0!important;
 	}
 }

@@ -24,8 +24,10 @@
 		<!-- index flow sao subpginas para aparecer no google pode usar noindex ou nofollow ou nocontatos etc.... -->
 		<title>projetos</title>
 		<link rel="stylesheet" type="text/css" href="<?php echo $url; ?>/assets/libs/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="<?php echo $url; ?>/assets/libs/fontawesome/css/fontawesome.min.css">
+		<link rel="stylesheet" type="text/css" href="<?php echo $url; ?>/assets/libs/fontawesome/css/brands.min.css">
+		<link rel="stylesheet" type="text/css" href="<?php echo $url; ?>/assets/libs/fontawesome/css/solid.min.css">
 		<link rel="stylesheet" type="text/css" href="<?php echo $url; ?>/assets/css/site/layout.css">
-
 	</head>
 	<body>
 		<header>
@@ -49,5 +51,8 @@
 		<script type="text/javascript" src="<?php echo $url; ?>/assets/libs/popper/popper.min.js"></script>
 		<script type="text/javascript" src="<?php echo $url; ?>/assets/libs/bootstrap/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="<?php echo $url; ?>/assets/js/site/layout.js"></script>
+
+
+
 	</body>
 </html>

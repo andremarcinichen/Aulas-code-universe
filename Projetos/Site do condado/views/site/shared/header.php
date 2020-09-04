@@ -1,19 +1,20 @@
 
 <!-- cabeçalho -->
-
-<div class="container">
-<!-- arruma as margens -->
-	<div class="float-left pt-3">
-		<a href="#" class="text-light">logo</a>	
+<header>
+<!-- 			<div id="hdiv1">
+				<a href="#">
+					<img src="assets/img/logo2.jpg" alt="O mago luderios do condado" title="Condado Luderia" id="hlogo1">
+				</a>
+			</div> -->
+	<div class="text-center">
+		<img src="<?php echo $url; ?>/assets/img/Escrita condado.png" alt="Escrita condado" title="Condado Luderia" id="hlogo1">
 	</div>
-	<!-- hamburguer -->
-	<div class="hamburguer d-none float-right">
-		<img src="<?php echo $url; ?>/assets/img/ham.png">
+	<div class="text-right">
+		<a href="jogos/Lista dos jogos.html" class="hbotao" id="hbotao1">
+			<b>Lista dos jogos</b>
+		</a>
+		<a target="blank" href="https://condado.acervodejogos.com.br/" class="hbotao" id="hbotao2">
+			<b>Acervo Principal</b>
+		</a>
 	</div>
-	<!-- links -->
-	<div class="links">
-		<a href="#" class="text-light d-block float-right">	home </a>
-		<a href="#" class="text-light d-block float-right">	quem somos </a>
-		<a href="#" class="text-light d-block float-right">	contato </a>
-	</div>
-</div>
+</header>
