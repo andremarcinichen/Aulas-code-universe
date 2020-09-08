@@ -1,0 +1,13 @@
+*{	
+font-family: Arial;
+}
+main{
+	margin-left: 15%;
+	padding-top: 5.70%;
+	z-index:1;
+}
+main div iframe.mvideo{
+	width:69.02%; 
+	height:523px;
+}
+
