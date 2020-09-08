@@ -6,6 +6,11 @@
 	<link rel="stylesheet" type="text/css" href="assets/libs/bootstrap-4.0.0/dist/css/bootstrap.min.css">
 </head>
 <body> 
+	<script type="text/javascript">
+		$(function () {
+		  $('[data-toggle="popover"]').popover()
+		})
+	</script>
 <!-- 9) Use o popover do bootstrap para mostrar algumas dicas sobre o botão -->
 	<div class="row">
 		<button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Título do popover" data-content="Aqui vai algum tipo de conteúdo. Muito da hora, né?!">Clique para ver o popover</button>
