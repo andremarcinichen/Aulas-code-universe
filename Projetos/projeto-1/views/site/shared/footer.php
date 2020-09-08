@@ -1,4 +1,4 @@
-<div class="container-fluid">
+<div class="container-fluid ">
 	
 	<section class="menus">
 		<div class="row">
@@ -6,7 +6,7 @@
 
 			<!-- links -->
 			<div class="col-md-4 cl-sm-12 col-12">
-				<h3 class="my-2 text-light"><b>Páginas</b></h3>
+				<h3 class="my-2 text-light text-center pt-1"><b>Páginas</b></h3>
 				<div href="#" class="link-responsive text-left">
 					<a href="#" class="text-light d-block ml-5">home</a>
 					<a href="#" class="text-light d-block ml-5">contato</a>

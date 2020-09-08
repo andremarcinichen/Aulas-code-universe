@@ -12,8 +12,8 @@
 	</div>
 	<!-- links -->
 	<div class="links">
-		<a href="#" class="text-light d-block float-right">	home </a>
+		<a href="<?php echo $url; ?>/" class="text-light d-block float-right">	home </a>
 		<a href="#" class="text-light d-block float-right">	quem somos </a>
-		<a href="#" class="text-light d-block float-right">	contato </a>
+		<a href="<?php echo $url; ?>/contato" class="text-light d-block float-right">	contato </a>
 	</div>
 </div>

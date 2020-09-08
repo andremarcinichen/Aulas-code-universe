@@ -28,6 +28,7 @@
 		<link rel="stylesheet" type="text/css" href="<?php echo $url; ?>/assets/libs/fontawesome/css/brands.min.css">
 		<link rel="stylesheet" type="text/css" href="<?php echo $url; ?>/assets/libs/fontawesome/css/solid.min.css">
 		<link rel="stylesheet" type="text/css" href="<?php echo $url; ?>/assets/css/site/layout.css">
+		<link rel="stylesheet" type="text/css" href="<?php echo $url; ?>/assets/css/site/home.css">
 	</head>
 	<body>
 		<header>

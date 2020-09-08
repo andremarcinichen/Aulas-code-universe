@@ -1,3 +1,6 @@
+	*{	
+font-family: Arial;
+}
 body{
 	margin: 0;
 }
@@ -9,10 +12,9 @@ header{
 	background:rgb(230,230,230);
 	height:12%;
 	opacity: 85%;
-	font-family: Arial;
 }
 #hlogo1{
-	width:23%; 
+	height: 11%; 	
 	padding-top: 0.5%;
 	position: fixed;
 	z-index: 2;
@@ -31,7 +33,7 @@ header{
 	font-size:1.17vw;
 	text-decoration:none;
 	text-align: center;
-	padding-top: 2.0%;
+	padding-top: 2%;
 	border-radius:55%;
 }
 #hbotao1{
@@ -83,25 +85,25 @@ header div .hbotao:hover{
 
 #menulateral{
 	border-right:black solid 1px;
-	width: 15%; 
-	height:80%;
+	width: 15%;
 	z-index: 1;
 	background: black;
 	position: fixed;
 	font-size: 1.17vw;
 	text-align: center;
 	margin-top: 5.7%;
-
 }
 .lbotao{
 	background-color: black;
 	color:white;
 	height: 10%;
 	z-index: 2;
-	border-top:1px;
-	border-radius:10px;
+	border-top:1%;
+	border-radius: 15%;
 	border:1px white solid;
 	padding-top: 6%;
+	padding-bottom: 6%;
+	margin:10% 4% 10% 4%;
 }
 .lbotao:hover{
 	color:orange!important;
