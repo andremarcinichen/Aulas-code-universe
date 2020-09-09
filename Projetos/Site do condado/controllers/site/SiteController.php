@@ -17,5 +17,12 @@ class SiteController extends Controller
 		$this->view('site/home/index.php');
 
 	}
+	public function Lista_de_jogos()
+	{		
+
+		$this->setLayout('site/shared/layout.php');
+		$this->view('site/jogos/Lista dos jogos.php');
+
+	}
 
 }

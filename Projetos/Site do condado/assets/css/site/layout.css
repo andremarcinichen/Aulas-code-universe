@@ -115,14 +115,13 @@ header div .hbotao:hover{
 	z-index: 1;
 	position: fixed;
 	font-size: 1.17vw;
-	margin-top: 5.7%;
+	margin-top: 5.6%;
 	right: 0;
 }
 
 main{ 
-	margin-left:15%;
+	margin-left:15.001%;
 	margin-top: 5.71%;
-	margin-bottom: 13%;
 	position: fixed;
 }
 footer {
@@ -145,14 +144,12 @@ footer {
 	font-size: 1.3vw;
 	padding-left: 20%; 
 }
-
 .fredesocial{
 	margin-top: 2%;
 	position: fixed;
 	height: 3.8%;
 	font-size: 1.3vw;
 }
-
 .fface{
 	padding-left: 2%;
 }
@@ -162,7 +159,6 @@ footer {
 .fwhats{
 	padding-left: 2%;
 }
-
 .fbudokai{
 	position: fixed;
 	margin-left: 28%;
@@ -170,9 +166,26 @@ footer {
 	color: black;
 	text-decoration: none;
 }
+.ftbudokai{
+	width: 30%;
+}
 .fihopps{
 	position: fixed;
 	text-decoration: none;
-	padding-left: 50%;
+	padding-left: 40%;
 	color: black;
+	text-decoration: none;
+}
+.ftihopps{
+	width: 50%;
+}
+.fparceria{
+	position: fixed;
+	text-decoration: none;
+	padding-left: 48%;
+	color: black;
+	text-decoration: none;
+}
+.ftparceria{
+	width: 65%;
 }

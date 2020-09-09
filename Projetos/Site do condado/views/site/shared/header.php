@@ -8,7 +8,7 @@
 <img class="text-left" src="<?php echo $url; ?>/assets/img/Escrita condado.png" alt="Escrita condado" title="Condado Luderia" id="hlogo1">
 
 <div class="text-right">
-	<a href="jogos/Lista dos jogos.html" class="hbotao" id="hbotao1">
+	<a href="<?php echo $url;?>/Lista_de_Jogos" class="hbotao" id="hbotao1">
 		<b>Lista dos jogos</b>
 	</a>
 	<a target="blank" href="https://condado.acervodejogos.com.br/" class="hbotao" id="hbotao2">

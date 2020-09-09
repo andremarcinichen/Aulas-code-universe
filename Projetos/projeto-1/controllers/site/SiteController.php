@@ -17,11 +17,11 @@ class SiteController extends Controller
 		$this->view('site/home/index.php');
 
 	}
-	public function pagina2()
+	public function Lista_de_jogos()
 	{		
 
 		$this->setLayout('site/shared/layout.php');
-		$this->view('site/pagina2/pagina2.php');
+		$this->view('site/jogos/Lista dos jogos.php');
 
 	}
 

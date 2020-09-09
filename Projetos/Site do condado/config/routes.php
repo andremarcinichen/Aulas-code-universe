@@ -12,6 +12,10 @@
 $commonRoutes = array(
 	'/'               => 'SiteController/index',
 	'contato'         => 'SiteController/contato',
+	'Lista_de_Jogos'  => 'SiteController/Lista_de_Jogos',
+
+
+
 );
 
 // rotas POST

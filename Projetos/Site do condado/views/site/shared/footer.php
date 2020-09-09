@@ -2,12 +2,15 @@
 	<div >
 		<a class="ftit1">Rede Sociais:</a>
 		<a class="fparceiros">Parceiros:</a>
-		<a target="blank" href="https://www.budokaigames.com.br/" class="fbudokai">
-			<img src="assets/img/budokai.png" alt="Simbolo do budokai" title="budokai" style="width: 20%" >
+		<a target="blank" href="https://www.budokaigames.com.br/" class="fbudokai ftbudokai">
+			<img src="assets/img/budokai.png" alt="Simbolo do budokai" title="budokai" class="ftbudokai" >
 		</a>
-		<a target="blank" href="https://ihopsapp.com/home" class="fihopps">
-			<img src="assets/img/ihops.jpeg" alt="Simbolo do ihopps" title="ihopps" style="width: 12%"  >
+		<a target="blank" href="https://ihopsapp.com/home" class="fihopps ftihopps">
+			<img src="assets/img/ihops.jpeg" alt="Simbolo do ihopps" title="ihopps" class="ftihopps" >
 		</a>	
+		<a target="blank" href="#" class="fparceria ftparceria">
+			<img src="assets/img/parceiro.png" alt="Imagem referente parceirias" title="Parcerias" class="ftparceria" >
+		</a>
 	</div>
 	<a target="blank" href="https://www.instagram.com/condadoluderia/?igshid=1odo2zjd5frj2" class="finsta">
 		<img src="assets/img/insta.png" alt="Simbolo do instragram" title="instagram do condado" class="fredesocial">

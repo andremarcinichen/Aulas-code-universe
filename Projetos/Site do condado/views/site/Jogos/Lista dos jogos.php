@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html>
-	<head>
-	<title>Jogos!</title>
-	</head>
-	<body>
 		<h1>Jogos com Maior saida!</h1>
 		<ol>
 			<li>
@@ -18,7 +12,3 @@
 		<a target="self" href="../Pag-inicial.html">
 			<img width="150" height="100" src="../assets/img/voltar.jpg" alt="seta de retorno" title="Voltar ao site principal" >
 		</a>
-	</body>
-</html>
-
-
