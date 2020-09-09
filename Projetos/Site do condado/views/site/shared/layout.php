@@ -29,26 +29,27 @@
 		<link rel="stylesheet" type="text/css" href="<?php echo $url; ?>/assets/libs/fontawesome/css/solid.min.css">
 		<link rel="stylesheet" type="text/css" href="<?php echo $url; ?>/assets/css/site/layout.css">
 		<link rel="stylesheet" type="text/css" href="<?php echo $url; ?>/assets/css/site/home.css">
+		<link rel="stylesheet" type="text/css" href="<?php echo $url; ?>/assets/libs/carosel/carosel.css">
 	</head>
 	<body>
+		<script type="text/javascript" src="<?php echo $url; ?>/assets/libs/jquery/jquery-3.4.1.min.js"></script>
+		<script type="text/javascript" src="<?php echo $url; ?>/assets/libs/popper/popper.min.js"></script>
+		<script type="text/javascript" src="<?php echo $url; ?>/assets/libs/bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="<?php echo $url; ?>/assets/libs/carosel/carosel.js"></script>
 		<header>
 			<?php require 'header.php'; ?>
 		</header>
 		<?php require 'menulateral.php'; ?>
+		<?php require 'adds.php'; ?>
 		<main>
 			<?php require $file; ?>
 		</main>
 		<footer>
 			<?php require 'footer.php'; ?>
 		</footer>
-
 		<script type="text/javascript">
 			var URL = "<?php echo $url; ?>";
 			var helpers = {};
 		</script>
-
-		<script type="text/javascript" src="<?php echo $url; ?>/assets/libs/jquery/jquery-3.4.1.min.js"></script>
-		<script type="text/javascript" src="<?php echo $url; ?>/assets/libs/popper/popper.min.js"></script>
-		<script type="text/javascript" src="<?php echo $url; ?>/assets/libs/bootstrap/js/bootstrap.min.js"></script>
 	</body>
 </html>

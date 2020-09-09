@@ -55,7 +55,6 @@ header div .hbotao:hover{
 #espacamento5d{padding-right: 5px;}
 
 /*@media (max-width: 600px){
-
 	header{
 		max-height:5%;
 	}
@@ -68,13 +67,11 @@ header div .hbotao:hover{
 	header .hamburguer{
 		display: block!important;
 	}
-
 	header .hamburguer img{
 		width: 37%;
 		float: left;
 		padding: 3%;
 	}
-
 	header .links a {
 		display: none!important;
 		text-align: right;
@@ -86,6 +83,7 @@ header div .hbotao:hover{
 #menulateral{
 	border-right:black solid 1px;
 	width: 15%;
+	height: 100%;
 	z-index: 1;
 	background: black;
 	position: fixed;
@@ -101,10 +99,80 @@ header div .hbotao:hover{
 	border-top:1%;
 	border-radius: 15%;
 	border:1px white solid;
-	padding-top: 6%;
+	padding-top: 10%;
 	padding-bottom: 6%;
-	margin:10% 4% 10% 4%;
+	margin:12% 4% 12% 4%;
+	left:0;
 }
 .lbotao:hover{
 	color:orange!important;
+}
+
+#adds{
+	border-left:black solid 1px;
+	width: 20%;
+	height: 100%;
+	z-index: 1;
+	position: fixed;
+	font-size: 1.17vw;
+	margin-top: 5.7%;
+	right: 0;
+}
+
+main{ 
+	margin-left:15%;
+	margin-top: 5.71%;
+	margin-bottom: 13%;
+	position: fixed;
+}
+footer {
+	border-top:black solid 1px;
+	z-index:2;
+	position: fixed;
+	width: 100%;
+	background: grey;
+	bottom: 0;
+	height: 10.5%;
+}
+
+.ftit1{
+	position: fixed;
+	padding-left: 3%;
+	font-size: 1.3vw;
+}
+.fparceiros{
+	position: fixed;
+	font-size: 1.3vw;
+	padding-left: 20%; 
+}
+
+.fredesocial{
+	margin-top: 2%;
+	position: fixed;
+	height: 3.8%;
+	font-size: 1.3vw;
+}
+
+.fface{
+	padding-left: 2%;
+}
+.finsta{
+	padding-left: 4%;
+}
+.fwhats{
+	padding-left: 2%;
+}
+
+.fbudokai{
+	position: fixed;
+	margin-left: 28%;
+	padding-top: 0.3%;
+	color: black;
+	text-decoration: none;
+}
+.fihopps{
+	position: fixed;
+	text-decoration: none;
+	padding-left: 50%;
+	color: black;
 }

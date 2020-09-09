@@ -1,10 +1,6 @@
 main{
-	margin-left:30%;
-	margin-top:12%;
-	z-index:1;
+	border: black solid 1px;
 }
 main div iframe.mvideo{
 	width:69.02%; 
-	height:523px;
 }
-
