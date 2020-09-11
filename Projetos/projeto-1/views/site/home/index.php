@@ -12,6 +12,6 @@
     			Não obstante, o desenvolvimento contínuo de distintas formas de atuação ainda não demonstrou convincentemente que vai participar na mudança das diretrizes de desenvolvimento para o futuro.
     		</p>
     	</div>
-    	
+
     </section>
 </div>

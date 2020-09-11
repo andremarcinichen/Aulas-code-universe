@@ -13,6 +13,10 @@ $commonRoutes = array(
 	'/'               => 'SiteController/index',
 	'contato'         => 'SiteController/contato',
 	'Lista_de_Jogos'  => 'SiteController/Lista_de_Jogos',
+	'Cadastro'  => 'SiteController/cadastro',
+	'Cardapio'  => 'SiteController/Cardapio',
+	'Quem_somos'  => 'SiteController/Quem_somos',
+	'faq'  => 'SiteController/faq',
 
 
 
