@@ -7,33 +7,34 @@
 		<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
 	</form>
 </nav>
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner ">
-    <div class="carousel-item active">
-      <img class="d-block rounded mx-auto d-block h-20" src="assets/img/comida1.jpg" alt="comida 1">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block rounded mx-auto d-block h-20" src="assets/img/comida2.jpg" alt="comida 2">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block rounded mx-auto d-block h-20" src="assets/img/comida 3.jpg" alt="comida 3">
-    </div>
-  </div>
-  <a class="carousel-control-prev bg-success" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Anterior</span>
-  </a>
-  <a class="carousel-control-next bg-success" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Próximo</span>
-  </a>
+<div class="mh-10">
+	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+	  <ol class="carousel-indicators">
+	    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+	    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+	    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+	  </ol>
+	  <div class="carousel-inner ">
+	    <div class="carousel-item active">
+	      <img class="d-block rounded mx-auto d-block h-20" src="assets/img/comida1.jpg" alt="comida 1">
+	    </div>
+	    <div class="carousel-item">
+	      <img class="d-block rounded mx-auto d-block h-20" src="assets/img/comida2.jpg" alt="comida 2">
+	    </div>
+	    <div class="carousel-item">
+	      <img class="d-block rounded mx-auto d-block h-20" src="assets/img/comida 3.jpg" alt="comida 3">
+	    </div>
+	  </div>
+	  <a class="carousel-control-prev bg-success" href="#carouselExampleIndicators" role="button" data-slide="prev">
+	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	    <span class="sr-only">Anterior</span>
+	  </a>
+	  <a class="carousel-control-next bg-success" href="#carouselExampleIndicators" role="button" data-slide="next">
+	    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	    <span class="sr-only">Próximo</span>
+	  </a>
+	</div>
 </div>
-
 <nav>
   <div class="nav nav-tabs" id="nav-tab" role="tablist">
     <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Frango</a>
