@@ -32,5 +32,19 @@ class SiteController extends Controller
 		$this->view('site/contact/index.php');
 
 	}
+	public function games()
+	{		
+
+		$this->setLayout('site/shared/layout.php');
+		$this->view('site/games/games.php');
+
+	}
+	public function menu()
+	{		
+
+		$this->setLayout('site/shared/layout.php');
+		$this->view('site/menu/menu.php');
+
+	}
 
 }

@@ -14,4 +14,8 @@
     	</div>
 
     </section>
+    <section>
+      <button type="button" class="btn btn-primary btn-lg btn-block">pareceiros</button>
+      <button type="button" class="btn btn-warning btn-lg btn-block">faq</button>
+    </section>
 </div>
