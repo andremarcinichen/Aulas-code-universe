@@ -1,5 +1,5 @@
 <footer>
-	<div >
+	<div>
 		<a class="ftit1">Rede Sociais:</a>
 		<a class="fparceiros">Parceiros:</a>
 		<a target="blank" href="https://www.budokaigames.com.br/" class="fbudokai ftbudokai">

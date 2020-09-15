@@ -7,6 +7,7 @@
 **/
 
 (function($, URL,Helpers){
+  var form = $('form[name="formcontact"]');
   var submitContact = function(){
     $('body').on('click', '#btnSubmitContact', function(){
       var name = $('input[name="name"]').val();
@@ -22,6 +23,57 @@
           });
         return false;
       }
+    if(email ==''){
+      Swal({
+          title:'Erro',
+          text: "preencha seu email",
+          type: "error",
+          });
+        return false;
+      }
+    if(phone ==''){
+      Swal({
+          title:'Erro',
+          text: "preencha seu telefone",
+          type: "error",
+          });
+        return false;
+      }
+    if(message ==''){
+      Swal({
+          title:'Erro',
+          text: "preencha sua mensagem",
+          type: "error",
+          });
+        return false;
+      }
+
+      $.ajax({
+        url:URL +'/submitContact',
+        type: 'POST',
+        dataType:'JSON',
+        data: form.serialize(),
+        complete: function(response){
+          if (response.responseJSON.result) {
+            Swal({
+                title:'Enviado!',
+                text: 'Aguarde o nosso retorno',
+                type: 'sucess',
+            }).then(function(){
+              window.location.reload();
+              return true
+            })
+          }else {
+            Swal({
+              title: 'Erro!',
+              text: 'Ocorreu um erro',
+              type: 'error',
+            })
+            return false;
+          }
+        }
+      })
+
     });
   }
 

@@ -10,16 +10,18 @@
 
 /**
 *
-* Pastas onde as classes serão adicionadas.
+* Pastas onde as classes serão adicionadas. SERVE PARA CARREGAR AS PASTAS DO CONTROLLER!!!
 * OBS: Para suporte de uma nova pasta adicione no array.
 *
 **/
 $paths = array(
   'controllers',
   'controllers/site',
+  'controllers/contact',
   'helpers',
   'models',
   'models/db',
+  'models/contact',
 );
 
 /**

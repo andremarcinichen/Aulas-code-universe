@@ -3,6 +3,7 @@ font-family: Arial;
 }
 body{
 	margin: 0;
+	margin-bottom: 15%;
 }
 header{
 	border-bottom:black solid 1px;
