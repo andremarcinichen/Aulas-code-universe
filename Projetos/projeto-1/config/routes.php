@@ -14,6 +14,8 @@ $commonRoutes = array(
 	'contato'         => 'SiteController/contact',
 	'games'         => 'SiteController/games',
 	'menu'         => 'SiteController/menu',
+	'quem_somos'         => 'SiteController/quem_somos',
+	'services'         => 'SiteController/services',
 );
 
 // rotas POST

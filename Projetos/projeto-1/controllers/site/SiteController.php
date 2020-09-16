@@ -46,5 +46,19 @@ class SiteController extends Controller
 		$this->view('site/menu/menu.php');
 
 	}
+	public function quem_somos()
+	{		
+
+		$this->setLayout('site/shared/layout.php');
+		$this->view('site/quem_somos/quem_somos.php');
+
+	}
+	public function services()
+	{		
+
+		$this->setLayout('site/shared/layout.php');
+		$this->view('site/services/services.php');
+
+	}
 
 }

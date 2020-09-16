@@ -12,9 +12,10 @@
 	</div>
 	<div class="links">
 		<a href="<?php echo $url; ?>/" class="text-light d-block float-right">	home </a>
-		<a href="#" class="text-light d-block float-right">	quem somos </a>
+		<a href="<?php echo $url; ?>/quem_somos" class="text-light d-block float-right">	quem somos </a>
 		<a href="<?php echo $url; ?>/contato" class="text-light d-block float-right">	contato </a>
 		<a href="<?php echo $url; ?>/menu" class="text-light d-block float-right">	Cardapio </a>
 		<a href="<?php echo $url; ?>/games" class="text-light d-block float-right">	Jogos </a>
+		<a href="<?php echo $url; ?>/services" class="text-light d-block float-right">	services </a>
 	</div>
 </div>

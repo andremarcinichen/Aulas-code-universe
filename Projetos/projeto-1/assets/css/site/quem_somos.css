@@ -1,0 +1,17 @@
+.imagem{
+	border-radius: 500px;
+	border: solid 1px black;
+	height: 250px;
+}
+
+.servico{
+	width:128px;
+	height:128px;
+	transform: rotate(-45deg);
+	overflow: hidden;
+}
+
+.imagem2{
+	width: 150px;
+	transform: rotate(45deg);
+}
