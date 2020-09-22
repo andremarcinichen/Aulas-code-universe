@@ -8,7 +8,7 @@
 *
 **/
 
-define('LOCAL_URL', '/aulas-code-universe/Projetos/projeto_2(mvc)');
+define('LOCAL_URL', '/andre_ramos/Aulas-code-universe/Projetos/projeto-2(mvc)/');
 
 // if($env == "dev"){
 // 	define('LOCAL_URL', '/pasta_do_projeto');
