@@ -10,47 +10,12 @@
   var form = $('form[name="formcontact"]');
   var submitContact = function(){
     $('body').on('click', '#btnSubmitContact', function(){
+      alert('teste')
       var nome = $('input[name="nome"]').val();
       var email = $('input[name="email"]').val();
       var senha = $('input[name="senha"]').val();
-      var identidade = $('textarea[name="identidade"]').val();
-
-console.log($nome,$email,$senha);
-
-
-    if(nome ==''){
-      Swal({
-          title:'Erro',
-          text: "preencha seu nome",
-          type: "error",
-          });
-        return false;
-      }
-    if(email ==''){
-      Swal({
-          title:'Erro',
-          text: "preencha seu email",
-          type: "error",
-          });
-        return false;
-      }
-    if(phone ==''){
-      Swal({
-          title:'Erro',
-          text: "preencha sua senha",
-          type: "error",
-          });
-        return false;
-      }
-    // if(message ==''){
-    //   Swal({
-    //       title:'Erro',
-    //       text: "preencha sua identidade",
-    //       type: "error",
-    //       });
-    //     return false;
-    //   }
-
+      var identidade = $('input[name="identidade"]').val();
+      console.log(nome + ', ' + email + ', ' + senha);
       $.ajax({
         url:URL +'/submitform',
         type: 'POST',
@@ -58,7 +23,7 @@ console.log($nome,$email,$senha);
         data: form.serialize(),
         complete: function(response){
           if (response.responseJSON.result) {
-            Swal({
+            swal({
                 title:'Enviado!',
                 text: 'Aguarde o nosso retorno',
                 type: 'sucess',
@@ -67,7 +32,7 @@ console.log($nome,$email,$senha);
               return true
             })
           }else {
-            Swal({
+            swal({
               title: 'Erro!',
               text: 'Ocorreu um erro',
               type: 'error',

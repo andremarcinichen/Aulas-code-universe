@@ -1,10 +1,6 @@
 <?php
 	$url = $this->helpers['URLHelper']->getURL();
 	$location = $this->helpers['URLHelper']->getLocation();
-	// var_dump($url);
-	// echo "<br>";
-	// var_dump($location);
-	// die;
 ?>
 <html>
 	<head>
@@ -31,7 +27,9 @@
 		</footer>
 		<script type="text/javascript">
 			var URL = "<?php echo $url; ?>";
-			var helpers = {};
+			var Helpers = {};
 		</script>
+		<script type="text/javascript" src="<?php echo $url; ?>/assets/libs/sweetalert2/dist/sweetalert2.all.min.js"></script>
+		<script type="text/javascript" src="<?php echo $url; ?>/assets/js/site/formulario.js"></script>
 	</body>
 </html>
