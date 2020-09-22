@@ -1,0 +1,19 @@
+<?php
+
+
+class ContactController extends Controller {
+	public function submitform(){
+		$id = null;
+		$nome = $_POST['nome'];
+		$email = $_POST['email'];
+		$senha = $_POST['senha'];
+		$identidade = $_POST['identidade'];,
+		
+		$saveContact = new contactCrud;
+		$saveContact = $saveContact ->saveContact($id,$nome,$email,$senha,$identidade);
+
+		echo json_encode(array(
+			'result' => $saveContact,
+		));
+	} 
+}

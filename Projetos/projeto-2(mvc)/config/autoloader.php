@@ -17,9 +17,11 @@
 $paths = array(
   'controllers',
   'controllers/site',
+  'controllers/formulario',
   'helpers',
   'models',
   'models/db',
+  'models/formulario',
 );
 
 /**

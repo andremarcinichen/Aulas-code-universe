@@ -16,5 +16,11 @@ class SiteController extends Controller
 		$this->view('site/home/index.php');
 
 	}
+	public function formulario()
+	{		
+		$this->setLayout('site/shared/layout.php');
+		$this->view('site/formulario/formulario.php');
+
+	}
 
 }

@@ -6,10 +6,6 @@
 	// var_dump($location);
 	// die;
 ?>
-
-<!-- AQUI TU VAI CHARMAR TODOS OS ARQUIVOS DE CSS PARA O SITE -->
-
-<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf-8">
@@ -23,7 +19,6 @@
 	</head>
 	<body>
 		<script type="text/javascript" src="<?php echo $url; ?>/assets/libs/jquery/jquery-3.4.1.min.js"></script>
-		<script type="text/javascript" src="<?php echo $url; ?>/assets/libs/popper/popper.min.js"></script>
 		<script type="text/javascript" src="<?php echo $url; ?>/assets/libs/bootstrap/js/bootstrap.min.js"></script>
 		<header>
 			<?php require 'header.php'; ?>
