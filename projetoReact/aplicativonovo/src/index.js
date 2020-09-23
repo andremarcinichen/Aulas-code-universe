@@ -152,23 +152,179 @@ import { func } from 'prop-types';
 //   }
 // }
 
-ReactDOM.render(
-  <Car />,
-    document.getElementById('root')
-);
+// ReactDOM.render(
+//   <Car />,
+//     document.getElementById('root')
+// );
+
+///////////exemplo 7
+
+// class Clock extends React.Component {
+//   constructor(props){
+//     super(props);//executa o props
+//     this.state = {date: new Date()};
+//   }
+//   componentDidMount(){  // componente do react (função)
+//     this.timerID = setInterval(
+//       ()=> this.tick(), 1000 // cada 1 segundo usa funçao tick
+//     );
+//   }
+//   componentWillUnmount(){
+//     clearInterval(this.timer.ID); 
+//   }
+//   tick(){
+//     this.setState({date:new Date()}); // tick joga o valor
+//   }
+//   render(){
+//     return(
+//       <div>
+//         <h1>hello world</h1>
+//         <h2>agora são{this.state.date.toLocaleTimeString()}</h2>
+//       </div>
+//     );
+//   }
+// }
 
 
+// ReactDOM.render(
+//   <Clock />,
+//     document.getElementById('root')
+// );
+
+///// exemplo 8
+
+// class Header extends React.Component {
+//     constructor(props){
+//       super(props);//executa o props
+//       this.state = {favoritecolor:"vermelho"};
+//     }
+//     static getDerivedStateFromProps(props){ /// faz com que valor nao altere
+//       return {favoritecolor: props.favcol};
+//     }
+//     changecolor = () => {
+//       this.setState({favoritecolor:"azul"})
+//     }
+//     render(){
+//       return(
+//         <div>
+//           <h1>hello world</h1>
+//           <h2>Minha cor favorita é: {this.state.favoritecolor}</h2>
+//           <button onClick={this.changecolor}>Trocar a Cor</button>
+//         </div>
+//       );
+//     }
+//   }
+//   ReactDOM.render(
+//     <Header favcol="amarelo" />,
+//       document.getElementById('root')
+//   );
 
 
+// exemplo 9
 
+  // class Header extends React.Component {
+  //   constructor(props){
+  //     super(props);//executa o props
+  //     this.state = {favoritecolor:"vermelho"};
+  //   }
+  //   shouldComponentUpdate(){  //desabilita site inteiro
+  //     return false;
+  //   }
+  //   changecolor = () => {
+  //     this.setState({favoritecolor:"azul"})
+  //   }
+  //   render(){
+  //     return(
+  //       <div>
+  //         <h1>hello world</h1>
+  //         <h2>Minha cor favorita é: {this.state.favoritecolor}</h2>
+  //         <button onClick={this.changecolor}>Trocar a Cor</button>
+  //       </div>
+  //     );
+  //   }
+  // }
+  // ReactDOM.render(
+  //   <Header favcol="amarelo" />,
+  //     document.getElementById('root')
+  // );
 
+  // exemplo 10
 
-
-
-
-
+  // class Toggle extends React.Component {
+  //   constructor (props){
+  //     super(props);
+  //     this.state = {isToggleOn: false};
+  //     this.handleClick = this.handleClick.bind(this);
+  //   }
+  //   handleClick(){
+  //     this.setState(prevState => ({
+  //       isToggleOn: !prevState.isToggleOn
+  //     }));
+  //   }
+  //   render(){
+  //     return (
+  //       <div>
+  //         <button onClick={this.handleClick}>
+  //           {this.state.isToggleOn ? 'ON' : 'OFF'}
+  //         </button>
+  //       </div>
+  //     );
+  //   }
+  // }
+  // ReactDOM.render(
+  //   <Toggle />,
+  //     document.getElementById('root'));
  
  // em tese letra minuscula é cosntante e letra maisucula é objeto
+
+//  class Football extends React.Component{
+//    shoot(a){
+//      alert(a);
+//    }
+//    render (){
+//      return(
+//        <button onClick={this.shoot.bind(this, 'gol')}> CHUTAR</button>
+//      );
+//    }
+//  }
+
+// ReactDOM.render(
+//   <Football />,
+//     document.getElementById('root'));
+
+  class Form extends React.Component{
+    constructor(props){
+      super(props);
+      this.state = {value: 'teste'};
+      this.handleChange = this.handleChange.bind(this);
+      this.handleSubmit = this.handleSubmit.bind(this);
+    }
+    handleChange(event){
+      this.setState({value: event.target.value});
+    }
+    handleSubmit(event){
+      alert('Nome: ' + this.state.value);
+      event.preventDefault();
+    }
+    render(){
+      return(
+        <form onSubmit={this.handleSubmit}>
+          <label>Nome: </label>
+          {/* <input type="text" value={this.state.value} onChange={this.handleChange} /><br/> */}
+          {/* <textarea type="text" value={this.state.value} onChange={this.handleChange} /><br/> */}
+          <select value={this.state.value} onChange={this.handleChange}>
+            <option value="teste">1</option>
+            <option value="teste2">2</option>
+            <option value="teste3">3</option>
+          </select><br/>
+          <input type="submit" />
+        </form>
+      );
+    }
+  }
+ReactDOM.render(
+  <Form />,
+    document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

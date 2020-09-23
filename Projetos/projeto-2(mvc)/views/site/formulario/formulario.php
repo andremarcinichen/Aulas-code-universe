@@ -14,10 +14,10 @@
     <label >Senha:</label>
     <input type="text" class="form-control" name="senha" placeholder="Senha com 6 digitos">
   </div>
-   <div class="form-group">
+<!--    <div class="form-group">
     <label >Foto da identidade em jpg</label>
     <input type="file" class="form-control-file" name="identidade">
-  </div>
+  </div> -->
   <div class="btn btn-primary" id="btnSubmitContact">Enviar!</div>
 </form>
 
