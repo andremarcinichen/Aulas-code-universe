@@ -8,14 +8,14 @@
 
 (function($, URL,Helpers){
   var form = $('form[name="formcontact"]');
-  var submitContact = function(){
+  var submitform = function(){
     $('body').on('click', '#btnSubmitContact', function(){
-      alert('teste')
       var nome = $('input[name="nome"]').val();
       var email = $('input[name="email"]').val();
       var senha = $('input[name="senha"]').val();
       var identidade = $('input[name="identidade"]').val();
-      console.log(nome + ', ' + email + ', ' + senha);
+      console.log(nome + ', ' + email + ', ' + senha); 
+      // até aqui ta ok
       $.ajax({
         url:URL +'/submitform',
         type: 'POST',
@@ -41,12 +41,10 @@
           }
         }
       })
-
     });
   }
-
   $(document).ready(function(){
-    submitContact();
+    submitform();
   });
 })($,URL,Helpers)
 

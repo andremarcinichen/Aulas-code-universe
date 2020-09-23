@@ -14,7 +14,6 @@
       var email = $('input[name="email"]').val();
       var phone = $('input[name="phone"]').val();
       var message = $('textarea[name="message"]').val();
-
     if(name ==''){
       Swal({
           title:'Erro',
@@ -47,7 +46,6 @@
           });
         return false;
       }
-
       $.ajax({
         url:URL +'/submitContact',
         type: 'POST',
@@ -76,20 +74,10 @@
 
     });
   }
-
   $(document).ready(function(){
     submitContact();
   });
 })($,URL,Helpers)
-
-
-
-
-
-
-
-
-
 
 //   Swal.fire({
 //   title: 'Custom width, padding, background.',

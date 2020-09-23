@@ -17,7 +17,7 @@ $commonRoutes = array(
 
 // rotas POST
 $commonPost = array(
-	'submitform' => 'ContactController/submitform',
+	'submitform' => 'formcontroller/submitform',
 
 );
 

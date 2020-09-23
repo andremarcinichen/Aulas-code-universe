@@ -1,7 +1,7 @@
 <?php
 
 
-class ContactController extends Controller {
+class formcontroller extends Controller {
 	public function submitform(){
 		$id = null;
 		$nome = $_POST['nome'];
@@ -9,11 +9,11 @@ class ContactController extends Controller {
 		$senha = $_POST['senha'];
 		$identidade = $_POST['identidade'];,
 		
-		$saveContact = new contactCrud;
-		$saveContact = $saveContact ->saveContact($id,$nome,$email,$senha,$identidade);
+		$saveform = new formcrud;
+		$saveform = $saveform ->saveform($id,$nome,$email,$senha,$identidade);
 
 		echo json_encode(array(
-			'result' => $saveContact,
+			'result' => $saveform,
 		));
 	} 
 }

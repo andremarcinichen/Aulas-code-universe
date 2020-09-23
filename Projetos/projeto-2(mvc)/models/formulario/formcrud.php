@@ -3,7 +3,7 @@
 // classe que configura o crud do contato
 
 
-class ContactCrud
+class formcrud
 {
 	private $pdoCrud;
 	private $table = 'cadastro';
@@ -14,7 +14,7 @@ class ContactCrud
 		# code...
 	}
 
-	public function saveContact($id=null, $nome, $email, $senha,$identidade)
+	public function saveform($id=null, $nome, $email, $senha,$identidade)
 	{
 		$pdo =array(
 			':nome' => $nome,
