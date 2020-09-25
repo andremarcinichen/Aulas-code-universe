@@ -17,8 +17,7 @@ $commonRoutes = array(
 
 // rotas POST
 $commonPost = array(
-	'submitform' => 'formcontroller/submitform',
-
+	'submitForm' 	=> 'FormController/submitform',
 );
 
 $commonRoutes = array_merge($commonRoutes, $commonPost);

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lnag="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>angular aula 1</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+	</head>
+	<body>
+		<div ng-app ng-init="bgColor='blue'; quantidade =2; valor= 10">
+			<!-- parte 1 -->
+			<p> 
+				Nome: <input type="text" name="name" ng-model="variavel">
+			 </p>
+			 <p ng-bind="variavel"></p>
+
+			 <!-- parte 2 -->
+			 <p>Expressão: {{5+5}} + {{quantidade*valor}} </p>
+
+			 <!-- parte 3 -->
+			 <p>
+			 	<input style="background-color:{{bgColor}}" type="" name="">
+			 </p>
+
+		</div>
+
+	</body>
+</html>

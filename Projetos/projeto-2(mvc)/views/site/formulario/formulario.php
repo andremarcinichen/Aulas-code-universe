@@ -1,7 +1,7 @@
 <h1 class="text-center">
   Cadastre-se!
 </h1>
-<form class="container">
+<form class="container" name="formcontact">
   <div class="form-group">
     <label>Seu nome:</label>
     <input type="text" class="form-control" name="nome" placeholder="Digite seu nome completo">

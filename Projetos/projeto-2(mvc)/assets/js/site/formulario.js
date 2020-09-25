@@ -16,7 +16,7 @@
       console.log(nome + ', ' + email + ', ' + senha); 
       // até aqui ta ok
       $.ajax({
-        url: URL + '/submitform',
+        url: URL + '/submitForm',
         type: 'POST',
         dataType:'JSON',
         data: form.serialize(),
