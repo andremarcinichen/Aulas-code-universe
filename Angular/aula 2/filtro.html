@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html ng-app="meuape">
+	<head>
+		<meta charset="utf-8">
+		<title>angular</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+	</head>
+	<body>
+		<div ng-controller="eucontrolotudo">
+			<ul>
+				<li ng-repeat="x in nomes">{{x}}</li>
+			</ul>
+		</div>
+
+		<!-- parte 2 -->
+		<div ng-controller="pessoactrl">
+			<p>o nome é: {{firstname | uppercase}}</p>
+			<p>o sobrenome é: {{lastname | lowercase}}</p>
+		</div>
+
+		<!-- PARTE 3 -->
+		<p>
+			<input type="text" ng-model="filtro">
+		</p>
+		<div ng-controller="namesctrl">
+			<ul>
+				<li ng-repeat="x in nomes| filter:filtro">{{x}}</li>
+			</ul>
+			
+		</div>
+
+		<!-- parte 4 -->
+		<div ng-controller="infctrl">
+			<table border="1">
+		<!-- 	<ul>
+				<li ng-repeat="x in nomes |orderBy: 'preco'"> {{x.nomes + ' ' + x.country + ' ' + x.preco}}
+				</ul>  -->
+				<tr>
+					<th ng-click="orderByme('nomes')">nome</th>
+					<th ng-click="orderByme('country')">sobrenome zuado</th>
+					<th ng-click="orderByme('preco')">preco</th>
+				</tr>
+				<tr ng-repeat="x in nomes| orderBy: myorderby">
+					<td>{{x.nomes}}</td>
+					<td>{{x.country}}</td>
+					<td>{{x.preco}}</td>
+				</tr>
+			</table>
+		</div>
+
+		<script type="text/javascript">
+			var app =angular.module('meuape',[]);
+			app.controller('eucontrolotudo', function($scope){
+				$scope.nomes = ['joao','maria','pedro'];
+			});
+
+			app.controller('pessoactrl', function($scope){
+				$scope.firstname ="joao";
+				$scope.lastname="dSILVA";
+			});
+			app.controller('namesctrl',function($scope){
+				$scope.nomes = ['joao','maria','pedro'];
+			});
+			app.controller('infctrl',function($scope){
+				$scope.nomes = [
+				{nomes:'joao', country:'maria', preco:'01'},
+				{nomes:'joafvddago', country:'mardwedia', preco:'10'},
+				{nomes:'jodfvdwefvo', country:'mawderia', preco:'02'},
+				{nomes:'jodfvsdfao', country:'maweqria', preco:'03'},
+				{nomes:'jodfdvdfao', country:'masdssssria', preco:'04'},
+				{nomes:'jodsfdao', country:'mariaasda', preco:'05'},
+				];
+				// 10 buga para numero
+				$scope.orderByme=function(x){
+					$scope.myorderby=x;
+				}
+			});
+
+		</script>
+	</body>
+</html>

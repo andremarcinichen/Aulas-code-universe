@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+	<html lang="pt-br" ng-app>
+	<head>
+		<meta charset="utf-8">
+		<title>verifica cao de angular</title>
+			<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+	</head>
+	<body>
+		<form name ="meuform">
+			Email:
+			<input type="email" name="email" ng-model="text">
+			<span ng-show="meuform.email.$error.email"> email invalido</span>
+		</form>
+		<br>
+		<form name="formmy">
+			<input type="text" name="minhaentrada" ng-model="minhaentrada" required maxlength="3">
+		</form>
+
+		<p> a entrada é: <b>{{formmy.minhaentrada.$valid}}</b></p>
+	</body>
+</html>

@@ -6,7 +6,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
 	</head>
 	<body>
-		<div ng-app ng-init="bgColor='blue'; quantidade =2; valor= 10">
+		<div ng-app="meuaplicativo" ng-controller="myctrl" ng-init="bgColor='blue'; quantidade =2; valor= 10; points=[10,20,5,2,40]">
 			<!-- parte 1 -->
 			<p> 
 				Nome: <input type="text" name="name" ng-model="variavel">
@@ -20,8 +20,18 @@
 			 <p>
 			 	<input style="background-color:{{bgColor}}" type="" name="">
 			 </p>
+			 <!-- parte 4 -->
+			 <p> o valor da terceira posiçõa é {{points[2]}}</p>
+			 <!-- parte 5 -->
+			 <p>{{firstName + ' ' +lastName}}</p>
 
 		</div>
-
+		<script type="text/javascript">
+			var app = angular.module('meuaplicativo',[]);
+			app.controller('myctrl', function($scope){
+				$scope.firstName ='andre';
+				$scope.lastName='marcinichen';
+			});
+		</script>
 	</body>
 </html>

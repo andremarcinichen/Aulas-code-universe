@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app>
+	<head>
+		<meta charset="utf-8">
+		<title>lista com angular</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+	</head>
+	<body>
+		<div ng-init="nomes=[
+			{name:'joao', country:'Brasil'},
+			{name:'andre', country:'fritomos'},
+			{name:'maria', country:'blehblablu'},
+		]">,
+			<ul>
+				<li ng-repeat="x in nomes">
+					{{x.name + ' ' + x.country}}
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>
