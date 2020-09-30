@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>servicos angular</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+</head>
+<body ng-app="services">
+	<!-- parte 1 -->
+	<div ng-controller='urlctrl'>
+		<p> a url  da pagina é <b> {{myurl}} </b></p>
+	</div>
+	<!-- parte 2 -->
+	<div ng-controller="intervalctrl">
+		<p>as horas sao: <b> {{thetime}}</b></p>
+	</div>
+	<!-- parte 3 -->
+	<div ng-controller="timeoutctrl">
+		<p>cabeçalho {{ header}}</p>
+	</div>
+	<!-- parte 4 -->
+	<div ng-controller="httpctrl">
+		<p> mensagem: {{welcome}} </p>
+		<p> mensagem: {{statuscode}} </p>
+		<p> mensagem: {{statustext}} </p>
+		{{content}}
+	</div>
+
+	<script type="text/javascript">
+		var app=angular.module('services',[]);
+		app.controller('urlctrl',function($scope,$location){
+			$scope.myurl = $location.absUrl();
+		})
+		app.controller('intervalctrl',function($scope,$interval){
+			$scope.thetime = new Date().toLocaleTimeString();
+			$interval(function(){
+				$scope.thetime=new Date().toLocaleTimeString();
+			}, 1000);
+		});
+		app.controller('timeoutctrl',function($scope,$timeout) {
+			$scope.header= 'ola';
+			$timeout(function() {
+				$scope.header = "como vc esta hoje"
+			}, 2000);
+		});
+		app.controller('httpctrl',function($scope,$http){
+			$http.get("welcome.html").then(function(response){
+				$scope.welcome = response.data;
+				$scope.content = response.data;
+				$scope.statuscode = response.status; 
+				// status 200 é protocolo para tudo ok
+				$scope.statustext = response.statusText;
+			}, function(response){
+				$scope.content = 'deu ruim';
+			})
+		})
+	</script>
+
+</body>
+</html>
