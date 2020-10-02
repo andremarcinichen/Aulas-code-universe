@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html ng-app="app" style="margin:0">
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body ng-controller="mousectrl">
+		<h3 ng-mousemove="count=count +1">passe o mouse aqui</h3>
+		<h3 ng-click="count2=count2 +1">clique</h3>
+		<h4>{{count + ''+ count2}}</h4>
+		<h3 ng-click="showmefunc()">click aqui dnv</h3>
+		<div ng-show="showme">
+			<h2>menu</h2>
+			<div>pizza</div>
+			<div>lasanha</div>
+			<div>pastel</div>
+			<div>chopp</div>
+		</div>
+
+		<h3 ng-mousemove="cordfunc($event)">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+		<h4>cordenada x: {{x}} <br> cordenada y:{{y}}<br></h4>
+
+		<script type="text/javascript">
+			var app = angular.module('app',[]);
+
+			app.controller('mousectrl',function($scope){
+				$scope.count=0;
+				$scope.cordfunc = function($event){
+					$scope.x = event.clientX;
+					$scope.y = event.clientY;
+				}
+				$scope.showme= false;
+				$scope.showmefunc = function(){
+					$scope.showme = !$scope.showme;
+				}
+			});
+		</script>
+
+	</body>
+</html>

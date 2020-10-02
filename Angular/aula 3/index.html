@@ -1,15 +1,32 @@
 <!DOCTYPE html>
 <html ng-app="banco">
 <head>
+	<style type="text/css">
+		table,th,td{
+			border: 1px solid grey;
+			border-collapse: collapse;
+			padding: 5px;
+		}
+		/*deixar colorido com css*/
+/*		table tr:nth-child(odd){
+			background-color: red;
+		}
+		table tr:nth-child(even){
+			background-color: blue;
+		}*/
+	</style>
 	<meta charset="utf-8">
 	<title>banco</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
 </head>
 <body ng-controller="customersctrl">
 	<table border="1">
-		<tr ng-repeat="x in names">
-			<td>{{x.names}}</td>
-			<td>{{x.country}}</td>
+		<tr ng-repeat="x in names | orderBy: 'names'">
+			<td>{{$index+1}}</td>
+			<td ng-if="$odd" style="background-color:red">{{x.names}}</td>
+			<td ng-if="$even">{{x.names}}</td>
+			<td ng-if="$odd" style="background-color:blue">{{x.country|uppercase}}</td>
+			<td ng-if="$even">{{x.country|uppercase}}</td>
 		</tr>
 	</table>
 	<script type="text/javascript">
