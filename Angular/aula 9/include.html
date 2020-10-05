@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app="app">
+	<head>
+		<meta charset="utf-8">
+		<title>include</title>
+	</head>
+	<body>
+		<div ng-include="https://www.youtube.com/channel/UC8O1HJLFIwBPDxoFFAs-h6A/channels"></div>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+		<script type="text/javascript">
+			var app= angular.module('app',[]);
+			app.config(function($scedeLegateProvider){
+				$scedeLegateProvider.resourceUrlWhiteList([
+					'https://www.mangareader.net/'
+					]);
+			})
+		</script>
+	</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html ng-app="appform" lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+		<title>ver em angular</title>
+	</head>
+	<body ng-controller="formctrl">
+		<form>	
+			<input type="text" ng-model="firstname" name="">
+			<h1>{{firstname}}</h1>
+			<input type="checkbox" ng-model="verify">
+			<h1 ng-show="verify">cabeçalho	</h1>
+			<br>
+<!-- 			<input type="radio" ng-model="topic" value="dogs" name="">dogs<br>
+			<input type="radio" ng-model="topic" value="cats" name="">gatos<br>
+			<input type="radio" ng-model="topic" value="parrots" name="">loro<br>
+			<div ng-switch="topic">
+				<div ng-switch-when="dogs">
+					<h1>dogs</h1>
+					<p>ADOTA LOGO!</p>
+				</div>
+				<div ng-switch-when="cats">
+					<h1>CATS</h1>
+					<p>ADOTA LOGO!</p>
+				</div>
+				<div ng-switch-when="parrots">
+					<h1>LORO</h1>
+					<p>ADOTA LOGO!</p>
+				</div>
+				<div ng-switch-when="dogs">
+					<h1>dogs</h1>
+					<p>ADOTA LOGO!</p>
+				</div>
+				
+			</div> -->
+			<select ng-model="topic">
+				<option value="" hidden selected>selecione um topico</option>
+				<option value="dogs">dogs</option>
+				<option value="cats">gato</option>
+				<option value="parrots">coelho</option>
+			</select>
+			<div ng-switch="topic">
+				<div ng-switch-when="dogs">
+					<h1>dogs</h1>
+					<p>ADOTA LOGO!</p>
+				</div>
+				<div ng-switch-when="cats">
+					<h1>CATS</h1>
+					<p>ADOTA LOGO!</p>
+				</div>
+				<div ng-switch-when="parrots">
+					<h1>LORO</h1>
+					<p>ADOTA LOGO!</p>
+				</div>
+				<div ng-switch-when="dogs">
+					<h1>dogs</h1>
+					<p>ADOTA LOGO!</p>
+				</div>
+			</div>
+		</form>
+		
+		<script type="text/javascript">
+			var app = angular.module('appform',[]);
+			app.controller('formctrl', function($scope){
+				$scope.firstname = 'gabriel';
+			})
+		</script>
+	</body>
+</html>
