@@ -12,9 +12,8 @@
       var nome = $('input[name="nome"]').val();
       var email = $('input[name="email"]').val();
       var senha = $('input[name="senha"]').val();
-      // var identidade = $('input[name="identidade"]').val();
+      var identidade = $('input[name="identidade"]').val();
       console.log(nome + ', ' + email + ', ' + senha); 
-      // até aqui ta ok
       $.ajax({
         url: URL + '/submitForm',
         type: 'POST',

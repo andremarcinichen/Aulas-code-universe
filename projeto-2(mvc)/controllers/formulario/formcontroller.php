@@ -7,8 +7,7 @@ class FormController extends Controller {
 		$nome = $_POST['nome'];
 		$email = $_POST['email'];
 		$senha = $_POST['senha'];
-		var_dump($_POST);
-		// $identidade = $_POST['identidade'];,	
+		$identidade = $_POST['identidade'];	
 		
 		$saveform = new formcrud;
 		$saveform = $saveform ->saveform($id,$nome,$email,$senha,$identidade);
