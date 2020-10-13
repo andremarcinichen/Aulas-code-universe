@@ -12,24 +12,27 @@
 	</head>
 	<body>
 		<header>
-			<button type="button" class="btn btn-primary" href="#!/">Pagina inicial</button>
-			<button type="button" class="btn btn-secondary" href="#!contato.html">Contato</button>
-			<button type="button" class="btn btn-success" href="#!cadstro.html">cadastro</button>
-			<button type="button" class="btn btn-danger"href="#!mapa.html">mapa</button>
+			<a ng-include src="header.html"></a>
 		</header>
 		<main>
-			
+			<a ng-view id="Principal"></a>
 		</main>
-
 		<footer>
-			
+			<a ng-include src="footer.html"></a>
 		</footer>
 		<script type="text/javascript">
-			var app= angular.module('app',[]);
-			app.config(function($scedeLegateProvider){
-				$scedeLegateProvider.resourceUrlWhiteList([
-					'https://www.mangareader.net/'
-					]);
+			var app= angular.module('app',["ngRoute"]);
+			app.config(function($routeProvider){
+				$routeProvider
+				.when("/",{
+					templateUrl:"<a src='main.html'></a>"
+				})
+				.when("/contato",{
+					templateUrl:"<a src='contato.html'></a>"
+				});
+				.when("/cadastro",{
+					templateUrl:"<a src='cadastro.html'></a>"
+				});
 			})
 		</script>
 
