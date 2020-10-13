@@ -113,7 +113,6 @@ function Comment (props){
 
 // topico 8 visao geral do codigo
 
-//topico 9
 
 ReactDOM.render(
   <Comment
@@ -122,5 +121,21 @@ ReactDOM.render(
     author={comment.author}
     />,
   document.getElementById('root'));
+
+//topico 9
+
+// function sum(a,b){
+//   return a+b;
+// }
+
+// ReactDOM.render(
+//   sum(4,8),
+//   document.getElementById('root'));
+
+// topico 10
+function saque(conta,quantidade){
+  conta.total-=quantidade;
+}
+
 
 serviceWorker.unregister();
