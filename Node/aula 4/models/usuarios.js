@@ -10,4 +10,4 @@ const usuarios = db.sequelize.define("usuarios", {
 })
 
 module.exports = usuarios
-usuarios.sync({force: true})
+// usuarios.sync({force: true})

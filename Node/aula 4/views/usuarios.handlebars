@@ -1,0 +1,25 @@
+	<div class="container mt-5">
+	<table class="table table-striped">
+		<thead>
+			<tr>
+				<th scope="col">#</th>
+				<th scope="col">Nome</th>
+				<th scope="col">Sobrenome</th>
+				<th scope="col">Ação</th>
+			</tr>
+		</thead>
+		<tbody>
+			{{#each usuarios}}
+		    <tr>
+				<th>{{dataValues.id}}</th>
+				<td>{{dataValues.firstname}}</td>
+				<td>{{dataValues.lastname}}</td>
+				<td>
+					<a href="/delete/{{dataValues.id}}" class="btn btn-danger">Remover</a>
+					<a href="/usuario/{{dataValues.id}}" class="btn btn-primary">Alterar</a>
+				</td>
+		    </tr>
+		    {{/each}}
+		</tbody>
+	</table>
+</div>
