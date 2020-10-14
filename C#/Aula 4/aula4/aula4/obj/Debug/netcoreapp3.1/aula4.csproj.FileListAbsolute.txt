@@ -1,0 +1,13 @@
+C:\xampp\htdocs\andre_ramos\aulas-code-universe\C#\Aula 4\aula4\aula4\bin\Debug\netcoreapp3.1\aula4.exe
+C:\xampp\htdocs\andre_ramos\aulas-code-universe\C#\Aula 4\aula4\aula4\bin\Debug\netcoreapp3.1\aula4.deps.json
+C:\xampp\htdocs\andre_ramos\aulas-code-universe\C#\Aula 4\aula4\aula4\bin\Debug\netcoreapp3.1\aula4.runtimeconfig.json
+C:\xampp\htdocs\andre_ramos\aulas-code-universe\C#\Aula 4\aula4\aula4\bin\Debug\netcoreapp3.1\aula4.runtimeconfig.dev.json
+C:\xampp\htdocs\andre_ramos\aulas-code-universe\C#\Aula 4\aula4\aula4\bin\Debug\netcoreapp3.1\aula4.dll
+C:\xampp\htdocs\andre_ramos\aulas-code-universe\C#\Aula 4\aula4\aula4\bin\Debug\netcoreapp3.1\aula4.pdb
+C:\xampp\htdocs\andre_ramos\aulas-code-universe\C#\Aula 4\aula4\aula4\obj\Debug\netcoreapp3.1\aula4.csprojAssemblyReference.cache
+C:\xampp\htdocs\andre_ramos\aulas-code-universe\C#\Aula 4\aula4\aula4\obj\Debug\netcoreapp3.1\aula4.AssemblyInfoInputs.cache
+C:\xampp\htdocs\andre_ramos\aulas-code-universe\C#\Aula 4\aula4\aula4\obj\Debug\netcoreapp3.1\aula4.AssemblyInfo.cs
+C:\xampp\htdocs\andre_ramos\aulas-code-universe\C#\Aula 4\aula4\aula4\obj\Debug\netcoreapp3.1\aula4.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\andre_ramos\aulas-code-universe\C#\Aula 4\aula4\aula4\obj\Debug\netcoreapp3.1\aula4.dll
+C:\xampp\htdocs\andre_ramos\aulas-code-universe\C#\Aula 4\aula4\aula4\obj\Debug\netcoreapp3.1\aula4.pdb
+C:\xampp\htdocs\andre_ramos\aulas-code-universe\C#\Aula 4\aula4\aula4\obj\Debug\netcoreapp3.1\aula4.genruntimeconfig.cache

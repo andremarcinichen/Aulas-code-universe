@@ -12,12 +12,7 @@
 	</head>
 	<body>
 		<header>
-<<<<<<< HEAD
-			<a ng-include="'header.html'"></a>
-		</header>
-		<main>
-			<a ng-view></a>
-=======
+			<!-- <a ng-include="'header.html'"></a> -->
 			<div class="alert alert-primary" role="alert">
 			 	<a class="btn btn-primary" href="#/!">Pagina inicial</a>
 				<a class="btn btn-secondary" href="#!contato">Contato</a>
@@ -27,7 +22,6 @@
 		</header>
 		<main>
 			<div ng-view></div>
->>>>>>> 8168777450ed2fea765a90d33da0edce403f667a
 		</main>
 		<footer>
 			<a ng-include="'footer.html'"></a>
@@ -37,18 +31,6 @@
 			app.config(function($routeProvider){
 				$routeProvider
 				.when("/",{
-<<<<<<< HEAD
-					template:"'main.html'"
-				})
-				.when("/contato",{
-					template:"'contato.html'"
-				})
-				.when("/cadastro",{
-					template:"cadastro"
-				});
-				.when("/mapa",{
-					template:"mapa"
-=======
 					templateUrl:"main.html"
 				})
 				.when("/contato",{
@@ -59,10 +41,8 @@
 				})
 				.when("/mapa",{
 					templateUrl:"mapa.html"
->>>>>>> 8168777450ed2fea765a90d33da0edce403f667a
 				});
 			});
 		</script>
-
 	</body>
 </html>
