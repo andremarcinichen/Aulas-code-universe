@@ -1,0 +1,13 @@
+C:\xampp\htdocs\andre_ramos\Aulas-code-universe\C#\tarefa\calculadora\calculadora\obj\Debug\netcoreapp3.1\calculadora.csprojAssemblyReference.cache
+C:\xampp\htdocs\andre_ramos\Aulas-code-universe\C#\tarefa\calculadora\calculadora\obj\Debug\netcoreapp3.1\calculadora.AssemblyInfoInputs.cache
+C:\xampp\htdocs\andre_ramos\Aulas-code-universe\C#\tarefa\calculadora\calculadora\obj\Debug\netcoreapp3.1\calculadora.AssemblyInfo.cs
+C:\xampp\htdocs\andre_ramos\Aulas-code-universe\C#\tarefa\calculadora\calculadora\obj\Debug\netcoreapp3.1\calculadora.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\andre_ramos\Aulas-code-universe\C#\tarefa\calculadora\calculadora\bin\Debug\netcoreapp3.1\calculadora.exe
+C:\xampp\htdocs\andre_ramos\Aulas-code-universe\C#\tarefa\calculadora\calculadora\bin\Debug\netcoreapp3.1\calculadora.deps.json
+C:\xampp\htdocs\andre_ramos\Aulas-code-universe\C#\tarefa\calculadora\calculadora\bin\Debug\netcoreapp3.1\calculadora.runtimeconfig.json
+C:\xampp\htdocs\andre_ramos\Aulas-code-universe\C#\tarefa\calculadora\calculadora\bin\Debug\netcoreapp3.1\calculadora.runtimeconfig.dev.json
+C:\xampp\htdocs\andre_ramos\Aulas-code-universe\C#\tarefa\calculadora\calculadora\bin\Debug\netcoreapp3.1\calculadora.dll
+C:\xampp\htdocs\andre_ramos\Aulas-code-universe\C#\tarefa\calculadora\calculadora\bin\Debug\netcoreapp3.1\calculadora.pdb
+C:\xampp\htdocs\andre_ramos\Aulas-code-universe\C#\tarefa\calculadora\calculadora\obj\Debug\netcoreapp3.1\calculadora.dll
+C:\xampp\htdocs\andre_ramos\Aulas-code-universe\C#\tarefa\calculadora\calculadora\obj\Debug\netcoreapp3.1\calculadora.pdb
+C:\xampp\htdocs\andre_ramos\Aulas-code-universe\C#\tarefa\calculadora\calculadora\obj\Debug\netcoreapp3.1\calculadora.genruntimeconfig.cache

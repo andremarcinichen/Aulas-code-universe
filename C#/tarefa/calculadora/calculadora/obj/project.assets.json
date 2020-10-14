@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\xampp\\htdocs\\andre_ramos\\Aulas-code-universe\\C#\\Aula 3\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
-      "projectName": "ConsoleApp1",
-      "projectPath": "C:\\xampp\\htdocs\\andre_ramos\\Aulas-code-universe\\C#\\Aula 3\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "C:\\xampp\\htdocs\\andre_ramos\\Aulas-code-universe\\C#\\tarefa\\calculadora\\calculadora\\calculadora.csproj",
+      "projectName": "calculadora",
+      "projectPath": "C:\\xampp\\htdocs\\andre_ramos\\Aulas-code-universe\\C#\\tarefa\\calculadora\\calculadora\\calculadora.csproj",
       "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-      "outputPath": "C:\\xampp\\htdocs\\andre_ramos\\Aulas-code-universe\\C#\\Aula 3\\ConsoleApp1\\ConsoleApp1\\obj\\",
+      "outputPath": "C:\\xampp\\htdocs\\andre_ramos\\Aulas-code-universe\\C#\\tarefa\\calculadora\\calculadora\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
