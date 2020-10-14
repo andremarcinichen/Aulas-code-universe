@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html ng-app="app">
+<html ng-app="myapp">
 	<head>
 		<meta charset="utf-8">
-		<title>include</title>
+		<title>tarefa</title>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -12,19 +12,32 @@
 	</head>
 	<body>
 		<header>
+<<<<<<< HEAD
 			<a ng-include="'header.html'"></a>
 		</header>
 		<main>
 			<a ng-view></a>
+=======
+			<div class="alert alert-primary" role="alert">
+			 	<a class="btn btn-primary" href="#/!">Pagina inicial</a>
+				<a class="btn btn-secondary" href="#!contato">Contato</a>
+				<a class="btn btn-success" href="#!cadastro">cadastro</a>
+				<a class="btn btn-danger" href="#!mapa">mapa</a>
+			</div>
+		</header>
+		<main>
+			<div ng-view></div>
+>>>>>>> 8168777450ed2fea765a90d33da0edce403f667a
 		</main>
 		<footer>
 			<a ng-include="'footer.html'"></a>
 		</footer>
 		<script type="text/javascript">
-			var app= angular.module('app',["ngRoute"]);
+			var app = angular.module("myapp",["ngRoute"]);
 			app.config(function($routeProvider){
 				$routeProvider
 				.when("/",{
+<<<<<<< HEAD
 					template:"'main.html'"
 				})
 				.when("/contato",{
@@ -35,8 +48,20 @@
 				});
 				.when("/mapa",{
 					template:"mapa"
+=======
+					templateUrl:"main.html"
+				})
+				.when("/contato",{
+					templateUrl:"contato.html"
+				})
+				.when("/cadastro",{
+					templateUrl:"cadastro.html"
+				})
+				.when("/mapa",{
+					templateUrl:"mapa.html"
+>>>>>>> 8168777450ed2fea765a90d33da0edce403f667a
 				});
-			})
+			});
 		</script>
 
 	</body>
