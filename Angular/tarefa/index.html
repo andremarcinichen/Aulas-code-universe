@@ -12,26 +12,29 @@
 	</head>
 	<body>
 		<header>
-			<a ng-include src="header.html"></a>
+			<a ng-include="'header.html'"></a>
 		</header>
 		<main>
-			<a ng-view id="Principal"></a>
+			<a ng-view></a>
 		</main>
 		<footer>
-			<a ng-include src="footer.html"></a>
+			<a ng-include="'footer.html'"></a>
 		</footer>
 		<script type="text/javascript">
 			var app= angular.module('app',["ngRoute"]);
 			app.config(function($routeProvider){
 				$routeProvider
 				.when("/",{
-					templateUrl:"<a src='main.html'></a>"
+					template:"'main.html'"
 				})
 				.when("/contato",{
-					templateUrl:"<a src='contato.html'></a>"
-				});
+					template:"'contato.html'"
+				})
 				.when("/cadastro",{
-					templateUrl:"<a src='cadastro.html'></a>"
+					template:"cadastro"
+				});
+				.when("/mapa",{
+					template:"mapa"
 				});
 			})
 		</script>
