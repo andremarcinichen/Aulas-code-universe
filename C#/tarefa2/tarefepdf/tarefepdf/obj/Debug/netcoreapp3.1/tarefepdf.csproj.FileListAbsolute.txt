@@ -1,0 +1,3 @@
+C:\xampp\htdocs\andre_ramos\aulas-code-universe\C#\tarefa2\tarefepdf\tarefepdf\obj\Debug\netcoreapp3.1\tarefepdf.AssemblyInfoInputs.cache
+C:\xampp\htdocs\andre_ramos\aulas-code-universe\C#\tarefa2\tarefepdf\tarefepdf\obj\Debug\netcoreapp3.1\tarefepdf.AssemblyInfo.cs
+C:\xampp\htdocs\andre_ramos\aulas-code-universe\C#\tarefa2\tarefepdf\tarefepdf\obj\Debug\netcoreapp3.1\tarefepdf.csproj.CoreCompileInputs.cache
