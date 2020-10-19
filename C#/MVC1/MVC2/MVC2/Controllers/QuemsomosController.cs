@@ -8,6 +8,7 @@ namespace MVC2.Controllers
 {
     public class QuemsomosController : Controller
     {
+        [Route("Quem-somos")]
         public IActionResult Index()
         {
             return View();

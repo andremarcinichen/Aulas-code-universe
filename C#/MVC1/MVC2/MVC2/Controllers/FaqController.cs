@@ -8,6 +8,7 @@ namespace MVC2.Controllers
 {
     public class FaqController : Controller
     {
+        [Route("Perguntas-Frequentes")]
         public IActionResult Index()
         {
             return View();

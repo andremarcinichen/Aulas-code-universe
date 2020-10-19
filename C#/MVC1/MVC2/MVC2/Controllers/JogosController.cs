@@ -8,6 +8,7 @@ namespace MVC2.Controllers
 {
     public class JogosController : Controller
     {
+        [Route("Jogos-de-Tabuleiro")]
         public IActionResult Index()
         {
             return View();
