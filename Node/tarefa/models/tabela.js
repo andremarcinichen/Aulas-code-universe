@@ -1,6 +1,6 @@
 const db = require("./db")
 
-const usuarios = db.sequelize.define("tabela", {
+const userinfo = db.sequelize.define("userinfo", {
 	firstname: {
 		type: db.Sequelize.STRING
 	},
@@ -8,6 +8,5 @@ const usuarios = db.sequelize.define("tabela", {
 		type: db.Sequelize.STRING
 	}
 })
-
-module.exports = tabela
-// usuarios.sync({force: true})
+// userinfo.sync({force: true})
+module.exports = userinfo

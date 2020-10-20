@@ -1,5 +1,5 @@
 const express = require("express")
 const app = express()
-const route = require("././config/routes.js")
+let route = require("././config/GeneralConfig.js");	
 
-app.use(route())
+app.get(route)
