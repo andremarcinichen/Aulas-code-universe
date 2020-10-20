@@ -1,8 +1,6 @@
-const express = require("express")
-const app = express()
 const handlebars = require("express-handlebars")
 const bodyParser = require("body-parser")
-const usuarios = require("./models/tabela.js")
+const tabela = require("./models/tabela")
 
 //template engine
 app.engine("handlebars", handlebars({defaultLayout: "main"}))
@@ -16,14 +14,8 @@ app.use(bodyParser.json())
 app.get("/formulario", function(req, res){
 	res.render("formulario");
 })
-app.get("/formulario", function(req, res){
-	res.render("formulario");
-})
-app.get("/formulario", function(req, res){
-	res.render("formulario");
-})
 
-app.get("/usuarios", function(req, res){
+app.get("/tabela", function(req, res){
 	usuarios.findAll({order: [["firstname", "ASC"]]}).then(function(usuarios){
 		res.render("usuarios", {usuarios: usuarios})
 	})
