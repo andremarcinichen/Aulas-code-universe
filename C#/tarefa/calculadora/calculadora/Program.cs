@@ -14,9 +14,9 @@ namespace calculadora
             string stringvalor1 = Console.ReadLine();
             Console.WriteLine("Digite o segundo valor valor:");
             string stringvalor2 = Console.ReadLine();
-            int valor1 = Int32.Parse(stringvalor1);
-            int valor2 = Int32.Parse(stringvalor2);
-            long resultado=0;
+            double valor1 = Int32.Parse(stringvalor1);
+            double valor2 = Int32.Parse(stringvalor2);
+            double resultado=0;
             switch (operacao)
             {
                 case "soma":

@@ -1,5 +1,4 @@
-const express = require("express")
-const app = express()
-let route = require("././config/GeneralConfig.js");	
-
-app.get(route)
+global.express = require("express");
+global.app = express();
+var Config = require("././config/GeneralConfig");
+const tabela = require("././models/tabela");

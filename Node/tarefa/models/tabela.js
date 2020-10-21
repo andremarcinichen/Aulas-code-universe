@@ -1,6 +1,6 @@
 const db = require("./db")
 
-const userinfo = db.sequelize.define("userinfo", {
+global.userinfo = db.sequelize.define("userinfo", {
 	firstname: {
 		type: db.Sequelize.STRING
 	},
