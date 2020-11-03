@@ -1,0 +1,4 @@
+npm install -g @ionic/cli
+ionic start myApp tabs
+cd myApp
+ionic serve

@@ -9,7 +9,7 @@
 			<label>Sobrenome</label>
 			<input type="text" class="form-control" name="lastname" value="{{usuario.dataValues.lastname}}">
 		</div>
-		<input type="hidden" class="form-control" name="id" value="{{usuario.dataValues.id}}">
+		<input type="hidden" class="form-control" name="id" value="{{usuario.dataValues.id}}" onclick="{{usuario.dataValues.favorite=!usuario.dataValues.favorite}}">
 		<button type="submit" class="btn btn-dark">Alterar</button>
 	</form>
 </div>

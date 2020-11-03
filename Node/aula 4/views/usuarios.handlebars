@@ -4,16 +4,16 @@
 			<tr>
 				<th scope="col">#</th>
 				<th scope="col">Nome</th>
-				<th scope="col">Sobrenome</th>
+				<th scope="col">vote</th>
 				<th scope="col">Ação</th>
 			</tr>
 		</thead>
 		<tbody>
-			{{#each usuarios}}
+			{{#each movieFound}}
 		    <tr>
-				<th>{{dataValues.id}}</th>
-				<td>{{dataValues.firstname}}</td>
-				<td>{{dataValues.lastname}}</td>
+				<th>{{inc @index}}</th>
+				<td>{{movieFoundTitle}}</td>
+				<td>{{movieFoundVote}}</td>
 				<td>
 					<a href="/delete/{{dataValues.id}}" class="btn btn-danger">Remover</a>
 					<a href="/usuario/{{dataValues.id}}" class="btn btn-primary">Alterar</a>

@@ -1,5 +1,5 @@
-const Sequelize = require("sequelize")
-const sequelize = new Sequelize("tabela", "root", "", {
+global.Sequelize = require("sequelize")
+global.sequelize = new Sequelize("Tabeladefilmes", "root", "", {
 		host: "localhost",
 		dialect: "mysql"
 	}
